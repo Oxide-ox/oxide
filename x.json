@@ -1,4 +1,4 @@
 {
   "API_URL": "http://bot.virzofficialst.my.id",
-  "WS_URL": "http://bot.oxideox.my.id"
+  "WS_URL": "wss://bot.oxideox.my.id"
 }
